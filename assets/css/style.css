@@ -1,0 +1,30 @@
+* {
+  font-family: "Lexend Mega", serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.shadow-brutal {
+  box-shadow: 5px 5px 0 0 rgba(0, 0, 0, 1);
+}
+
+.shadow-join {
+  box-shadow: 1px 5px 0 0 rgba(0, 0, 0, 1);
+}
+
+.border-brutal {
+  border-width: 2px;
+  border-color: black;
+}
+.custom-bg {
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.btn-brutal:hover {
+  transform: translate(1px, 2px);
+  box-shadow: 2px 2px 0 0 rgba(0, 0, 0, 1);
+}
